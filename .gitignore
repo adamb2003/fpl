@@ -14,5 +14,6 @@ data/kiwi.csv
 data/TransferAlgorithm.csv
 data/login.json
 run/results/*.csv
+run/*.log
 .venv/
 bin/

@@ -1,14 +1,14 @@
 # FPL Optimisation
 
-This repository is a collection of optimization tools for Fantasy Premier League (FPL).
+This repository is a collection of optimisation tools for Fantasy Premier League (FPL).
 
-Python code mainly use `pandas` for data management and `sasoptpy` for optimization modeling.
+Python code mainly use `pandas` for data management and `sasoptpy` for optimisation modeling.
 
 It is being actively developed. The content and the structure of the repository might change.
 
 ## Instructions
 
-### Multi-period GW optimization
+### Multi-period GW optimisation
 
 - Edit content of `data/regular_settings.json` file
 
@@ -197,7 +197,7 @@ It is being actively developed. The content and the structure of the repository 
   - `generate_binary_files`: flag for generating binary files based on fixture settings provided in 'binary_files'
   - `solutions_file`: the name of a file that an overview of all solves gets outputted to. Useful when running solves in parallel.
 
-- Run the multi-period optimization
+- Run the multi-period optimisation
 
   ```shell
   python solve_regular.py

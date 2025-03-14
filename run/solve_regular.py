@@ -79,7 +79,7 @@ def solve_regular(runtime_options=None):
 
     
     try:
-        import google.colab
+        import google.colab # type: ignore
         is_colab = True
     except:
         is_colab = False

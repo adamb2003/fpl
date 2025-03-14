@@ -31,7 +31,7 @@
   "hit_limit": null,
   "weekly_hit_limit": 1,
   "hit_cost": 4,
-  "use_wc": null,
+  "use_wc": 31,
   "use_bb": null,
   "use_fh": null,
   "use_tc": null,
